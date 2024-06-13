@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  background-color: #1F2937;
+  color: white;
+  display: flex;
+  /* Creates a gap between  */
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 8px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.left, .right {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.hero {
+  background-color: #1F2937;
+}
+
+footer {
+  flex: 1;
+  align-content: flex-end;
+  background-color: #1F2937;
+}
+
+.quote {
+  background-color: #E5E7EB;
+  font-style: italic;
+  font-size: 36px;
+  color: #1F2937;
+  padding: 48px;
+}
+
+cite {
+  display: block;
+  text-align: right;
+}
+
+button {
+  background-color: #3882F6;
+  border-radius: 25px;
+  border: 2px solid #ffffff;
+  color: white;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
