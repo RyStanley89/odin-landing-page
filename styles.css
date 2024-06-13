@@ -33,6 +33,8 @@ a {
 }
 
 .hero {
+  display: flex;
+  flex-direction: column;
   background-color: #1F2937;
 }
 
@@ -57,10 +59,13 @@ cite {
 
 button {
   background-color: #3882F6;
-  border-radius: 25px;
-  border: 2px solid #ffffff;
+  border-radius: 15px;
   color: white;
   padding: 20px;
-  width: 200px;
-  height: 150px;
+  width: 150px;
+  height: auto;
+}
+
+.sign-up-button {
+  border: 2px solid #ffffff;
 }
