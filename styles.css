@@ -1,13 +1,29 @@
+/* Default styles */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+/* General styles */
 body {
   font-family: 'Roboto', sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
+button {
+  background-color: #3882F6;
+  border-radius: 15px;
+  color: white;
+  padding: 20px;
+  width: 150px;
+  height: auto;
+}
+
+/* Header styles */
 header {
   background-color: #1F2937;
   color: white;
@@ -20,10 +36,13 @@ ul {
   display: flex;
   list-style: none;
   gap: 8px;
+  padding: 20px;
 }
 
-a {
-  text-decoration: none;
+.logo {
+  padding: 9px;
+  width: 100px;
+  height: auto;
 }
 
 .left, .right {
@@ -32,40 +51,81 @@ a {
   align-items: center;
 }
 
+/* Hero section styles */
 .hero {
   display: flex;
   flex-direction: column;
   background-color: #1F2937;
 }
 
-footer {
-  flex: 1;
-  align-content: flex-end;
-  background-color: #1F2937;
+.placeholder-image {
+  width: 400px;
+  height: auto;
 }
 
+/* Info section styles */
+
+/* Quote section styles */
 .quote {
+  display: flex;
+  flex-direction: column;
   background-color: #E5E7EB;
   font-style: italic;
-  font-size: 36px;
+  font-size: 30px;
   color: #1F2937;
-  padding: 48px;
+  padding-top: 50px;
+  padding-right: 250px;
+  padding-bottom: 50px;
+  padding-left: 250px;
+
 }
 
 cite {
-  display: block;
   text-align: right;
 }
 
-button {
+/* Sign-up section styles */
+.sign-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+}
+
+.bottom-container{
+  display: flex;
+  flex-direction: column;
   background-color: #3882F6;
-  border-radius: 15px;
   color: white;
-  padding: 20px;
-  width: 150px;
-  height: auto;
+  width: 900px;
+  height: 150px;
+  border-radius: 25px;
+  padding: 30px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.bottom-button {
+  align-self: flex-end;
+  gap: 16px;
 }
 
 .sign-up-button {
   border: 2px solid #ffffff;
+}
+
+/* Footer styles */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1F2937;
+  color: white;
+  padding-top: 20px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  padding-left: 30px;
 }
